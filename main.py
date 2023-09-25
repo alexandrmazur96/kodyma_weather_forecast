@@ -3,9 +3,9 @@ from weatherapi.WeatherApiClient import WeatherApiClient
 from telegram.formatter.MessageFormatter import MessageFormatter
 from telegram.TelegramBotClient import TelegramBotClient
 
-WEATHERAPI_API_KEY = "55998201356948a4a78194504232309"
+WEATHERAPI_API_KEY = "<token>"
 
-TELEGRAM_BOT_API_KEY = "6300676794:AAEWeMnIolor4T7eErlmW5UUkXF7LCgbcnI"
+TELEGRAM_BOT_API_KEY = "<token>"
 TELEGRAM_CHANNEL = "@kodymaforecast"
 
 print("Obtaining forecast for today: " + datetime.now().strftime("%B %d, %Y %H:%M:%S"))
